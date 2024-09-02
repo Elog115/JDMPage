@@ -85,3 +85,50 @@ footer {
     width: 100%;
     bottom: 0;
 }
+/* Estilos previos... */
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#que-es-jdm, #historia-jdm, #modelos-iconicos {
+    margin-bottom: 40px;
+}
+
+p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.video-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f8f8f8;
+}
+
+td img {
+    display: block;
+    margin: 0 auto;
+}
+
