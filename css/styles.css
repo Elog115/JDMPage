@@ -131,4 +131,173 @@ td img {
     display: block;
     margin: 0 auto;
 }
+/* Estilos para el contenido de "¿Qué es JDM?" */
+#que-es-jdm {
+    background-color: #f9f9f9; /* Fondo suave */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+    #que-es-jdm h1 {
+        font-size: 28px;
+        color: #2c3e50; /* Color azul oscuro */
+        margin-bottom: 10px;
+    }
+
+    #que-es-jdm h2 {
+        font-size: 22px;
+        color: #3498db; /* Color azul más vibrante */
+        margin-top: 20px;
+    }
+
+    #que-es-jdm h3 {
+        font-size: 18px;
+        color: #2c3e50;
+        margin-top: 15px;
+    }
+
+    #que-es-jdm p {
+        line-height: 1.7;
+        font-size: 16px;
+        color: #555; /* Color de texto gris suave */
+        margin-bottom: 10px;
+        text-align: justify;
+    }
+
+/* Estilos para la tabla de "Modelos Icónicos" */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff; /* Fondo blanco */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #2c3e50; /* Fondo azul oscuro para encabezados */
+    color: #fff; /* Texto blanco */
+    padding: 12px 15px;
+    text-align: left;
+    font-size: 14px;
+}
+
+td {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #333; /* Color de texto oscuro */
+}
+
+    td img {
+        display: block;
+        margin: 0 auto;
+        border-radius: 4px; /* Esquinas redondeadas para las imágenes */
+    }
+
+/* Estilos responsivos para la tabla en dispositivos móviles */
+@media (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+        width: 100%;
+    }
+
+    th, td {
+        box-sizing: border-box;
+        padding: 10px;
+    }
+
+    th {
+        background-color: #3498db; /* Color azul más claro para mobile */
+    }
+}
+/* Estilos para la sección de Contacto */
+#contacto {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+    #contacto h1 {
+        font-size: 24px;
+        color: #2c3e50;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+    form label {
+        font-size: 14px;
+        margin-bottom: 5px;
+        color: #2c3e50;
+    }
+
+    form input, form textarea {
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+
+    form button {
+        padding: 10px;
+        background-color: #3498db;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        form button:hover {
+            background-color: #2980b9;
+        }
+/* Estilos para la sección de Eventos JDM */
+#eventos-jdm {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e8f6f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+    #eventos-jdm h1 {
+        font-size: 24px;
+        color: #2c3e50;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    #eventos-jdm p {
+        font-size: 16px;
+        line-height: 1.6;
+        color: #555;
+        text-align: justify;
+    }
+
+    #eventos-jdm ul {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+
+    #eventos-jdm li {
+        font-size: 16px;
+        margin-bottom: 10px;
+        color: #2c3e50;
+    }
 
